@@ -1,10 +1,10 @@
-#You will need your own Steam API key to enter into each URL
-#You will need your own account_id for steam for each URL
-#You will need your player_id for within dota to extract each datapoint
+#you need your own Steam API key to enter into each URL
+#you need your own account_id for steam for each URL
+#you need player_id for within dota to extract each datapoint
 
 library(XML)
 
-#Store the URL to extract your last 100 match info into a variable
+#store the URL to extract your last 100 match info into a variable
 dotaURL = 'http://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=<key>&format=xml&account_id=<id>'
 
 #load xml in a way that gives you access to each part of the xml file
